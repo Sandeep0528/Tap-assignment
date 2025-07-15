@@ -1,12 +1,33 @@
-# React + Vite
+# 🏃‍♂️ Smart Jogger – Real-Time Jogging Tracker Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Smart Jogger is a browser-based fitness web application that uses modern Web APIs to track your jogging path in real time, display distance covered, and visualize your movement on a canvas. It also detects network quality and viewport visibility to enhance your outdoor running experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Features
 
-## Expanding the ESLint configuration
+- 📍 Live location tracking using **Geolocation API**
+- 🟢 Draws route on a dynamic canvas with **Canvas API**
+- 🔴 Marks each location with visual dots
+- 🎯 Highlights **start (blue)** and **latest point (red)**
+- 📏 Displays total distance in kilometers
+- 🔁 Reset path button to clear the map
+- 📡 Detects your network status via **Network Information API**
+- 👁️ Warns if canvas goes out of view using **Intersection Observer API**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Technologies Used
+
+- [Vite + React](https://vitejs.dev/)
+- HTML5 / CSS3
+- JavaScript (ES6+)
+- Web APIs:
+  - [`Geolocation API`](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)
+  - [`Canvas API`](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)
+  - [`Network Information API`](https://developer.mozilla.org/en-US/docs/Web/API/Network_Information_API)
+  - [`Intersection Observer API`](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API)
+
+---
+
+
